@@ -148,6 +148,8 @@ export const translations = {
     faq_a4: "We run an international creator network with a strong base in Korea, plus creators across Europe and North America — so collaborations stay localized and platform-native wherever you're launching.",
     faq_q5: 'Do you build websites and tools too?',
     faq_a5: 'Yes — that\'s our Growth Assets practice. Landing pages, campaign microsites and AI-integrated tools, built as marketing systems and optimised for conversion.',
+    faq_q6: 'What about pricing?',
+    faq_a6: "Every project is different, so we don't do fixed packages. Book a discovery call and we'll discuss your goals, scope and timeline — then you'll receive a tailored proposal with clear pricing that fits your needs. No surprises, no hidden fees.",
 
     // CTA
     cta_title1: "Let's make",
@@ -310,6 +312,8 @@ export const translations = {
     faq_a4: '한국을 중심으로 한 글로벌 크리에이터 네트워크를 운영하며, 유럽과 북미에도 크리에이터가 있습니다 — 어디서 론칭하든 현지화되고 플랫폼에 최적화된 협업을 유지합니다.',
     faq_q5: '웹사이트와 도구도 만드나요?',
     faq_a5: '네 — 그로스 자산 영역입니다. 랜딩 페이지, 캠페인 마이크로사이트, AI 통합 도구를 마케팅 시스템으로 구축하고 전환에 최적화합니다.',
+    faq_q6: '가격은 어떻게 되나요?',
+    faq_a6: '모든 프로젝트가 다르기 때문에 고정 패키지는 없습니다. 디스커버리 콜을 예약하시면 목표, 범위, 일정을 함께 논의한 뒤, 필요에 맞는 명확한 가격이 포함된 맞춤 제안서를 보내드립니다. 놀라운 비용도, 숨겨진 수수료도 없습니다.',
 
     // CTA
     cta_title1: '세상을',
