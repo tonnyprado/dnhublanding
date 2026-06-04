@@ -1,0 +1,61 @@
+/* ---------- NEW COLOR PALETTE ---------- */
+
+/* Marca */
+:root {
+  --purple: #40086d;
+  --purple-deep: #340659;
+
+  /* Pop cálido */
+  --blush: #f4c5c9;
+  --blush-deep: #5e1230;
+  --blush-soft: #fbe9eb;
+
+  /* Lilas (soporte) */
+  --lilac: #dccaf4;
+  --lilac-mid: #ecdff9;
+  --lilac-soft: #f0eafc;
+  --purple-soft: #f5eeff;
+
+  /* Neutros y base */
+  --white: #f6f6f6;
+  --bg: #faf6f4;
+  --bg-alt: #f4effe;
+  --ink: #1e1e1e;
+  --black: #1e1e1e;
+
+  /* Texto */
+  --text-mid: #6b6b7b;
+  --text-dim: #a0a0b0;
+
+  /* Bordes */
+  --border: rgba(64, 8, 109, 0.08);
+  --line: rgba(64, 8, 109, 0.12);
+  --line-2: rgba(64, 8, 109, 0.2);
+
+  /* Mappings para compatibilidad */
+  --accent: var(--purple);
+  --accent-deep: var(--purple-deep);
+  --on-accent: var(--white);
+  --cream: var(--bg);
+  --cream-2: var(--lilac-soft);
+
+  /* Fonts */
+  --font-display: 'Anton', 'Black Han Sans', sans-serif;
+  --font-head: 'Archivo Black', 'Black Han Sans', sans-serif;
+  --font-body: 'Space Grotesk', 'Noto Sans KR', system-ui, sans-serif;
+  --disp-ls: 0.005em;
+
+  /* Layout */
+  --maxw: 1240px;
+  --pad: clamp(18px, 4vw, 48px);
+}
+
+:root[data-font="anton"] {
+  --font-display: 'Anton', 'Black Han Sans', sans-serif;
+  --disp-ls: 0.005em;
+}
+
+:root[data-font="archivo"] {
+  --font-display: 'Archivo Black', 'Black Han Sans', sans-serif;
+  --disp-ls: -0.01em;
+}
