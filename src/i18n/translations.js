@@ -11,9 +11,9 @@ export const translations = {
 
     // Hero
     hero_label: 'Growth & Marketing Studio — Seoul',
-    hero_lead: "We help K-Beauty brands stand out, get noticed & go global — and we don't do quiet.",
+    hero_lead: "Your K-Beauty brand deserves an international audience. We build the content that gets you there",
     hero_line1: 'K-Beauty,',
-    hero_line2: 'unignorable.',
+    hero_line2: 'undeniable.',
 
     // Ribbon items
     ribbon_growth: 'K-Beauty Growth',
@@ -129,8 +129,9 @@ export const translations = {
     about_badge3: 'Clients in the USA, Europe & Asia',
 
     // Team
-    team_role: 'Co-founder',
-    team_name1: 'Diana Nonoe',
+    team_role1: 'CEO',
+    team_role2: 'CTO',
+    team_name1: 'Diana Nonea',
     team_bio1: 'Leads brand strategy, creator partnerships and the creative direction behind every campaign.',
     team_name2: 'Marco Prado',
     team_bio2: 'Leads growth, AI workflows and the technical execution that turns strategy into results.',
@@ -152,8 +153,8 @@ export const translations = {
     faq_a6: "Every project is different, so we don't do fixed packages. Book a discovery call and we'll discuss your goals, scope and timeline — then you'll receive a tailored proposal with clear pricing that fits your needs. No surprises, no hidden fees.",
 
     // CTA
-    cta_title1: "Let's make",
-    cta_title2: 'some noise.',
+    cta_title1: "Let's talk about",
+    cta_title2: 'your brand.',
     cta_desc: 'Looking for creator campaigns, scalable content systems or digital growth support? One call, zero commitment.',
     cta_btn1: 'Book a discovery call',
     cta_btn2: 'Contact us',
@@ -293,8 +294,9 @@ export const translations = {
     about_badge3: '미국, 유럽, 아시아 고객사',
 
     // Team
-    team_role: '공동 창업자',
-    team_name1: 'Diana Nonoe',
+    team_role1: 'CEO',
+    team_role2: 'CTO',
+    team_name1: 'Diana Nonea',
     team_bio1: '브랜드 전략, 크리에이터 파트너십, 그리고 모든 캠페인의 크리에이티브 디렉션을 이끕니다.',
     team_name2: 'Marco Prado',
     team_bio2: '그로스, AI 워크플로우, 그리고 전략을 결과로 바꾸는 기술 실행을 이끕니다.',
@@ -316,8 +318,8 @@ export const translations = {
     faq_a6: '모든 프로젝트가 다르기 때문에 고정 패키지는 없습니다. 디스커버리 콜을 예약하시면 목표, 범위, 일정을 함께 논의한 뒤, 필요에 맞는 명확한 가격이 포함된 맞춤 제안서를 보내드립니다. 놀라운 비용도, 숨겨진 수수료도 없습니다.',
 
     // CTA
-    cta_title1: '세상을',
-    cta_title2: '흔들어 봅시다.',
+    cta_title1: '당신의 브랜드에',
+    cta_title2: '대해 이야기해요.',
     cta_desc: '크리에이터 캠페인, 확장 가능한 콘텐츠 시스템, 디지털 그로스 지원이 필요하신가요? 한 번의 상담, 부담은 없습니다.',
     cta_btn1: '디스커버리 콜 예약',
     cta_btn2: '문의하기',

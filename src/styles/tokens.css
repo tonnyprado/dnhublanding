@@ -40,19 +40,14 @@
   --cream-2: var(--lilac-soft);
 
   /* Fonts */
-  --font-display: 'Anton', 'Black Han Sans', sans-serif;
+  --font-display: 'Archivo Black', 'Black Han Sans', sans-serif;
   --font-head: 'Archivo Black', 'Black Han Sans', sans-serif;
   --font-body: 'Space Grotesk', 'Noto Sans KR', system-ui, sans-serif;
-  --disp-ls: 0.005em;
+  --disp-ls: -0.01em;
 
   /* Layout */
   --maxw: 1240px;
   --pad: clamp(18px, 4vw, 48px);
-}
-
-:root[data-font="anton"] {
-  --font-display: 'Anton', 'Black Han Sans', sans-serif;
-  --disp-ls: 0.005em;
 }
 
 :root[data-font="archivo"] {

@@ -1,5 +1,6 @@
 import { LanguageProvider, useLang } from './i18n/LanguageContext';
 import { useReveal } from './hooks/useReveal';
+import { useLenis } from './hooks/useLenis';
 
 import Nav from './components/Nav';
 import Ribbon from './components/Ribbon';
@@ -21,6 +22,7 @@ import Footer from './sections/Footer';
 function AppContent() {
   const { t } = useLang();
   useReveal();
+  useLenis();
 
   const ribbonItems1 = [
     t('ribbon_growth'),

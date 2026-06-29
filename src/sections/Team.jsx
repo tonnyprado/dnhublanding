@@ -23,10 +23,10 @@ export default function Team() {
       {/* Diana - Left aligned */}
       <div className="team-member left reveal">
         <div className="member-photo">
-          <ImageSlot placeholder="Foto de Diana · Co-founder" />
+          <ImageSlot src="/images/diana-nonea.png" alt="Diana · CEO" />
         </div>
         <div className="member-info">
-          <span className="member-role">{t('team_role')}</span>
+          <span className="member-role">{t('team_role1')}</span>
           <h3 className="member-name">{t('team_name1')}</h3>
           <p className="member-bio">{t('team_bio1')}</p>
         </div>
@@ -35,12 +35,12 @@ export default function Team() {
       {/* Marco - Right aligned */}
       <div className="team-member right reveal">
         <div className="member-info">
-          <span className="member-role">{t('team_role')}</span>
+          <span className="member-role">{t('team_role2')}</span>
           <h3 className="member-name">{t('team_name2')}</h3>
           <p className="member-bio">{t('team_bio2')}</p>
         </div>
         <div className="member-photo">
-          <ImageSlot src="/images/team-marco.png" alt="Marco · Co-founder" />
+          <ImageSlot src="/images/marco-prado.png" alt="Marco · CTO" />
         </div>
       </div>
     </section>
