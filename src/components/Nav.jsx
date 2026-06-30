@@ -21,7 +21,7 @@ export default function Nav() {
         </nav>
         <div className="nav-cta">
           <LanguageToggle />
-          <Button variant="dark" href="#contact">{t('nav_book')}</Button>
+          <Button variant="dark" href="https://calendly.com/diananonea/1-1-call">{t('nav_book')}</Button>
           <button
             className="hamb"
             aria-label="Menu"
