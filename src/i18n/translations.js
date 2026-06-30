@@ -10,8 +10,9 @@ export const translations = {
     nav_book: 'Book a call',
 
     // Hero
-    hero_label: 'Growth & Marketing Studio — Seoul',
-    hero_lead: "Your K-Beauty brand deserves an international audience. We build the content that gets you there",
+    hero_label: 'MARKETING AND AI STUDIO',
+    hero_lead1: "Your K-Beauty brand deserves an international audience.",
+    hero_lead2: "We build the content that gets you there.",
     hero_line1: 'K-Beauty,',
     hero_line2: 'undeniable.',
 
@@ -175,8 +176,9 @@ export const translations = {
     nav_book: '상담 예약',
 
     // Hero
-    hero_label: '그로스 & 마케팅 스튜디오 — 서울',
-    hero_lead: 'K-Beauty 브랜드가 눈에 띄고, 주목받고, 세계로 나아가도록 돕습니다 — 조용한 건 우리 방식이 아니에요.',
+    hero_label: 'MARKETING AND AI STUDIO',
+    hero_lead1: 'K-Beauty 브랜드가 눈에 띄고, 주목받고, 세계로 나아가도록 돕습니다.',
+    hero_lead2: '조용한 건 우리 방식이 아니에요.',
     hero_line1: 'K-Beauty,',
     hero_line2: '무시할 수 없게.',
 

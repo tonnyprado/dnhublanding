@@ -9,7 +9,8 @@ export default function Hero() {
       <div className="wrap">
         <div className="hero-head reveal">
           <span className="label">{t('hero_label')} ★</span>
-          <p className="lead">{t('hero_lead')}</p>
+          <p className="lead">{t('hero_lead2')}</p>
+          <p className="lead">{t('hero_lead1')}</p>
         </div>
         <div className="hero-collage reveal">
           <div className="ph a">
