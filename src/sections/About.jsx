@@ -13,7 +13,7 @@ export default function About() {
             <ImageSlot src="/images/image6.png" alt="Creative workspace" />
           </div>
           <div className="m2">
-            <ImageSlot src="/images/image5.png" alt="Seoul street" />
+            <ImageSlot src="/images/image1.png" alt="Seoul street" />
           </div>
           <div className="m3">
             <ImageSlot src="/images/image4.png" alt="Behind the scenes" />
