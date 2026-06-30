@@ -13,13 +13,13 @@ export default function Hero() {
         </div>
         <div className="hero-collage reveal">
           <div className="ph a">
-            <ImageSlot src="/images/hero-left.jpg" alt="Skincare flatlay" />
+            <ImageSlot src="/images/image4.png" alt="Skincare flatlay" />
           </div>
           <div className="ph b">
-            <ImageSlot src="/images/hero-center.jpg" alt="K-beauty product" />
+            <ImageSlot src="/images/image1.png" alt="K-beauty product" />
           </div>
           <div className="ph c">
-            <ImageSlot src="/images/hero-creator.jpg" alt="Content creator" />
+            <ImageSlot src="/images/image3.png" alt="Content creator" />
           </div>
         </div>
         <div className="hero-banner">

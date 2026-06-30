@@ -10,13 +10,13 @@ export default function About() {
       <div className="wrap">
         <div className="about-collage reveal">
           <div className="m1">
-            <ImageSlot src="/images/about-workspace.jpg" alt="Creative workspace" />
+            <ImageSlot src="/images/image6.png" alt="Creative workspace" />
           </div>
           <div className="m2">
-            <ImageSlot src="/images/about-seoul.jpg" alt="Seoul street" />
+            <ImageSlot src="/images/image5.png" alt="Seoul street" />
           </div>
           <div className="m3">
-            <ImageSlot src="/images/about-bts.jpg" alt="Behind the scenes" />
+            <ImageSlot src="/images/image4.png" alt="Behind the scenes" />
           </div>
         </div>
         <div className="banner about-ghost">{t('about_title')}</div>

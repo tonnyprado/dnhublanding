@@ -38,7 +38,6 @@ export default function Work() {
           {works.map((work, i) => (
             <Polaroid
               key={i}
-              caption={work.caption}
               src={work.src}
               videoUrl={work.videoUrl}
               imageStyle={work.imageStyle}
