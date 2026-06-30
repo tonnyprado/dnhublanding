@@ -165,7 +165,7 @@
 
 /* ---------- ABOUT ---------- */
 .about-collage{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:center;}
-.about-collage .img-slot{width:100%;height:clamp(150px,18vw,230px);display:block;border:2px solid var(--ink);}
+.about-collage .img-slot{width:100%;aspect-ratio:1/1;display:block;border:2px solid var(--ink);}
 .about-collage .m1 .img-slot{transform:rotate(-3deg);}
 .about-collage .m3 .img-slot{transform:rotate(3deg);}
 .about-ghost{text-align:center;margin-top:-2.5vw;position:relative;z-index:1;color:transparent;-webkit-text-stroke:2px var(--ink);mix-blend-mode:exclusion;}

@@ -10,7 +10,7 @@ export const translations = {
     nav_book: 'Book a call',
 
     // Hero
-    hero_label: 'MARKETING AND AI STUDIO',
+    hero_label: 'MARKETING AND AI STUDIO - SEOUL',
     hero_lead1: "Your K-Beauty brand deserves an international audience.",
     hero_lead2: "We build the content that gets you there.",
     hero_line1: 'K-Beauty,',
@@ -176,7 +176,7 @@ export const translations = {
     nav_book: '상담 예약',
 
     // Hero
-    hero_label: 'MARKETING AND AI STUDIO',
+    hero_label: 'MARKETING AND AI STUDIO - SEOUL',
     hero_lead1: 'K-Beauty 브랜드가 눈에 띄고, 주목받고, 세계로 나아가도록 돕습니다.',
     hero_lead2: '조용한 건 우리 방식이 아니에요.',
     hero_line1: 'K-Beauty,',

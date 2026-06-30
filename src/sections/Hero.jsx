@@ -9,15 +9,17 @@ export default function Hero() {
       <div className="wrap">
         <div className="hero-head reveal">
           <span className="label">{t('hero_label')} ★</span>
-          <p className="lead">{t('hero_lead2')}</p>
-          <p className="lead">{t('hero_lead1')}</p>
+          <p className="lead">
+            {t('hero_lead2')}<br />
+            {t('hero_lead1')}
+          </p>
         </div>
         <div className="hero-collage reveal">
           <div className="ph a">
             <ImageSlot src="/images/image4.png" alt="Skincare flatlay" />
           </div>
           <div className="ph b">
-            <ImageSlot src="/images/image1.png" alt="K-beauty product" />
+            <ImageSlot src="/images/image5.png" alt="K-beauty product" />
           </div>
           <div className="ph c">
             <ImageSlot src="/images/image3.png" alt="Content creator" />
