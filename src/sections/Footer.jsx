@@ -24,6 +24,11 @@ export default function Footer() {
         </div>
         <div className="foot-bottom">
           <a href="mailto:hello@dnhub.co">hello@dnhub.co</a>
+          <div className="foot-legal">
+            <a href="/privacy.html">Privacy Policy</a>
+            <span> · </span>
+            <a href="/terms.html">Terms of Service</a>
+          </div>
           <span className="cr">{t('foot_copy')}</span>
         </div>
       </div>
