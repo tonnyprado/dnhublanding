@@ -1,0 +1,26 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#40086d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#340659;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#bgGrad)"/>
+
+  <!-- Main star -->
+  <path d="M600 280L640 420L800 420L670 520L710 660L600 570L490 660L530 520L400 420L560 420L600 280Z" fill="#f4c5c9"/>
+
+  <!-- DnHub text -->
+  <text x="600" y="800" font-family="Arial Black, sans-serif" font-weight="900" font-size="140" fill="#f6f6f6" text-anchor="middle" letter-spacing="-4">DnHub</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="880" font-family="Arial, sans-serif" font-weight="600" font-size="40" fill="#dccaf4" text-anchor="middle" letter-spacing="2">SEOUL</text>
+
+  <!-- Decorative dots -->
+  <circle cx="300" cy="300" r="40" fill="#dccaf4" opacity="0.3"/>
+  <circle cx="900" cy="300" r="30" fill="#f4c5c9" opacity="0.3"/>
+  <circle cx="300" cy="900" r="35" fill="#f4c5c9" opacity="0.2"/>
+  <circle cx="900" cy="900" r="40" fill="#dccaf4" opacity="0.2"/>
+</svg>

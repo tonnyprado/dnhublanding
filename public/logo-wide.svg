@@ -1,0 +1,28 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#40086d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#340659;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="628" fill="url(#bgGrad2)"/>
+
+  <!-- Star icon left -->
+  <path d="M180 180L200 240L270 240L215 280L235 340L180 300L125 340L145 280L90 240L160 240L180 180Z" fill="#f4c5c9"/>
+
+  <!-- DnHub text center -->
+  <text x="600" y="360" font-family="Arial Black, sans-serif" font-weight="900" font-size="160" fill="#f6f6f6" text-anchor="middle" letter-spacing="-4">DnHub</text>
+
+  <!-- Tagline -->
+  <text x="600" y="430" font-family="Arial, sans-serif" font-weight="600" font-size="36" fill="#dccaf4" text-anchor="middle" letter-spacing="3">MARKETING & AI STUDIO — SEOUL</text>
+
+  <!-- Decorative elements right -->
+  <circle cx="1020" cy="200" r="50" fill="#f4c5c9" opacity="0.3"/>
+  <circle cx="1100" cy="320" r="30" fill="#dccaf4" opacity="0.3"/>
+  <circle cx="950" cy="400" r="40" fill="#f4c5c9" opacity="0.2"/>
+
+  <!-- Small stars decoration -->
+  <path d="M1020 480L1030 510L1060 510L1036 528L1046 558L1020 540L994 558L1004 528L980 510L1010 510L1020 480Z" fill="#dccaf4" opacity="0.5"/>
+</svg>
