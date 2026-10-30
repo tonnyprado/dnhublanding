@@ -17,8 +17,22 @@ export default function Statement() {
         <div className="statement-side reveal">
           <p>{t('statement_desc')}</p>
           <div className="statement-foot">
-            <Button variant="dark" href="#services">{t('statement_cta1')}</Button>
-            <Button variant="accent" href="#contact">{t('statement_cta2')}</Button>
+            <Button
+              variant="dark"
+              href="#services"
+              eventName="navigation_click"
+              eventParams={{ location: 'statement', destination: 'services', button_text: 'how_we_help' }}
+            >
+              {t('statement_cta1')}
+            </Button>
+            <Button
+              variant="accent"
+              href="#contact"
+              eventName="navigation_click"
+              eventParams={{ location: 'statement', destination: 'contact', button_text: 'book_a_call' }}
+            >
+              {t('statement_cta2')}
+            </Button>
           </div>
           <div className="statement-img">
             <ImageSlot src="/images/statement.jpg" alt="Beauty influencer" />

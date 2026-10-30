@@ -14,14 +14,57 @@ export default function Nav() {
           DnHub <span className="star">★</span>
         </a>
         <nav className="nav-links">
-          <a href="#services">{t('nav_services')}</a>
-          <a href="#work">{t('nav_work')}</a>
-          <a href="#about">{t('nav_about')}</a>
-          <a href="#faq">{t('nav_faq')}</a>
+          <a
+            href="#services"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'nav_link_click', { section: 'services' });
+              }
+            }}
+          >
+            {t('nav_services')}
+          </a>
+          <a
+            href="#work"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'nav_link_click', { section: 'work' });
+              }
+            }}
+          >
+            {t('nav_work')}
+          </a>
+          <a
+            href="#about"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'nav_link_click', { section: 'about' });
+              }
+            }}
+          >
+            {t('nav_about')}
+          </a>
+          <a
+            href="#faq"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'nav_link_click', { section: 'faq' });
+              }
+            }}
+          >
+            {t('nav_faq')}
+          </a>
         </nav>
         <div className="nav-cta">
           <LanguageToggle />
-          <Button variant="dark" href="https://calendly.com/diananonea/1-1-call">{t('nav_book')}</Button>
+          <Button
+            variant="dark"
+            href="https://calendly.com/diananonea/1-1-call"
+            eventName="book_call_click"
+            eventParams={{ location: 'nav', button_text: 'book_a_call' }}
+          >
+            {t('nav_book')}
+          </Button>
           <button
             className="hamb"
             aria-label="Menu"

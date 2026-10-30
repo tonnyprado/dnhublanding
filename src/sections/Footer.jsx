@@ -23,11 +23,47 @@ export default function Footer() {
           </nav>
         </div>
         <div className="foot-bottom">
-          <a href="mailto:hello@dnhub.co">hello@dnhub.co</a>
+          <a
+            href="mailto:hello@dnhub.co"
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'contact_email_click', {
+                  location: 'footer',
+                  link_text: 'email'
+                });
+              }
+            }}
+          >
+            hello@dnhub.co
+          </a>
           <div className="foot-legal">
-            <a href="/privacy.html">Privacy Policy</a>
+            <a
+              href="/privacy.html"
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.gtag) {
+                  window.gtag('event', 'legal_page_click', {
+                    page: 'privacy',
+                    location: 'footer'
+                  });
+                }
+              }}
+            >
+              Privacy Policy
+            </a>
             <span> · </span>
-            <a href="/terms.html">Terms of Service</a>
+            <a
+              href="/terms.html"
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.gtag) {
+                  window.gtag('event', 'legal_page_click', {
+                    page: 'terms',
+                    location: 'footer'
+                  });
+                }
+              }}
+            >
+              Terms of Service
+            </a>
           </div>
           <span className="cr">{t('foot_copy')}</span>
         </div>

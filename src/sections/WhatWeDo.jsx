@@ -16,7 +16,14 @@ export default function WhatWeDo() {
             <TagPill>{t('what_tag2')}</TagPill>
             <TagPill>{t('what_tag3')}</TagPill>
           </div>
-          <Button variant="dark" href="#services">{t('what_cta')}</Button>
+          <Button
+            variant="dark"
+            href="#services"
+            eventName="navigation_click"
+            eventParams={{ location: 'what_we_do', destination: 'services', button_text: 'see_the_services' }}
+          >
+            {t('what_cta')}
+          </Button>
         </div>
       </div>
     </section>
