@@ -9,7 +9,7 @@
   <text x="165" y="130" font-family="Arial Black, sans-serif" font-weight="900" font-size="72" fill="#f6f6f6" letter-spacing="-2">DnHub</text>
 
   <!-- Tagline -->
-  <text x="165" y="155" font-family="Arial, sans-serif" font-weight="400" font-size="18" fill="#dccaf4" letter-spacing="1">MARKETING & AI STUDIO — SEOUL</text>
+  <text x="165" y="155" font-family="Arial, sans-serif" font-weight="400" font-size="18" fill="#dccaf4" letter-spacing="1">MARKETING &amp; AI STUDIO - SEOUL</text>
 
   <!-- Decorative elements -->
   <circle cx="720" cy="50" r="25" fill="#f4c5c9" opacity="0.3"/>
